@@ -1,0 +1,14 @@
+<div class="container justify-content-center col-8 pt-10 ">
+<h1 class= "pt-5 w-100 pb-10 ml-15"> The best restaurants in town</h1>
+  <% @restaurants.each do |resto| %>
+  <div class = 'card m-20 big w-100'> <%= link_to resto.name, restaurant_path(resto) %>
+    <div class= 'small'>
+       <%= resto.address %>
+    </div>
+  </div>
+  <% end %>
+
+  <p> <%= link_to 'Add a new restaurant',new_restaurant_path %> </p>
+
+</div>
+

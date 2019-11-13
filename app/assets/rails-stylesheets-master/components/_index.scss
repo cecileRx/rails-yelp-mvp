@@ -1,0 +1,20 @@
+// Import your components CSS files here.
+@import "alert";
+@import "avatar";
+@import "navbar";
+
+.big {
+  font-size: 30px;
+}
+
+.small{
+  font-size: 15px;
+}
+
+.card {
+  background-color: #eceae7;
+  padding: 10px;
+  margin: 15px;
+
+}
+
